@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+#cabecera {
+    background-color: #ffe0e9;
+    color: #ff69b4;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#cabecera h1 {
+    font-size: 3em;
+    color: #ff69b4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+#cabecera h2 {
+    font-size: 1.5em;
+    color: #ff69b4;
+    margin: 0;
+}
+
+#footer {
+    background-color: #ffe0e9;
+    color: #ff69b4;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #ddd;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#sobremi {
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+.habilidades {
+    background-color: #fff;
+    padding: 2em;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.proyectos {
+    background-color: #fff;
+    padding: 2em;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+
+img {
+    display: block;
+    margin: 1em auto;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff69b4;
+}
+
+
+#footer a {
+    color: #ff69b4;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
